@@ -1,0 +1,68 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there
+    - Good morning
+    - Good evening
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you later
+    - Goodbye
+    - Take care
+
+- intent: symptoms_query
+  examples: |
+    - What are the symptoms of diabetes?
+    - Can you tell me about hypertension symptoms?
+    - What causes high cholesterol?
+    - How do I know if I have anemia?
+    - What are the early signs of cardiovascular disease?
+    - What are the symptoms of an infectious disease?
+    - What are the symptoms of mental illness?
+
+- intent: causes_query
+  examples: |
+    - What causes hypertension?
+    - Can you tell me the reason for diabetes?
+    - How do people develop cardiovascular disease?
+    - What causes high cholesterol?
+    - What are the reasons for anemia?
+    - What causes metabolic disorders?
+
+- intent: treatment_query
+  examples: |
+    - How is diabetes treated?
+    - What are the treatments for high blood pressure?
+    - What is the best way to manage cardiovascular disease?
+    - How do I lower my cholesterol levels?
+    - What treatments are available for mental illness?
+    - How do I prevent infectious diseases?
+
+- intent: book_appointment
+  examples: |
+    - I need to book an appointment with a doctor.
+    - Can I schedule a checkup?
+    - I want to see a specialist.
+    - How do I book a telemedicine consultation?
+    - Schedule a doctor's appointment for me.
+
+- intent: general_health_advice
+  examples: |
+    - How can I stay healthy?
+    - What are the best ways to prevent heart disease?
+    - Can you give me some tips for a healthy diet?
+    - How much exercise should I do daily?
+    - What are good habits for mental health?
+
+- intent: chatbot_capabilities
+  examples: |
+    - What can you do?
+    - How do you work?
+    - What kind of medical questions can you answer?
+    - Are you an AI doctor?

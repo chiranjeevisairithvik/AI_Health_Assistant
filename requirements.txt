@@ -1,0 +1,36 @@
+# Core Flask Web Framework
+flask
+flask_sqlalchemy
+flask_cors
+
+# Rasa Chatbot
+rasa-sdk
+
+# API & Web Requests
+requests
+gunicorn
+
+# Data Processing & Machine Learning
+numpy
+pandas
+scikit-learn
+torch
+transformers
+sentence-transformers
+
+# FAISS for Retrieval Augmented Generation (RAG)
+faiss-cpu
+
+# OpenAI API for AI Chatbot
+openai
+
+# PDF & Text Extraction
+PyMuPDF  # (for extracting text from PDFs)
+
+# Visualization & Analytics
+matplotlib
+seaborn
+
+# Security & Environment Variables
+werkzeug
+python-dotenv
