@@ -1,0 +1,26 @@
+version: "3.1"
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with your health today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Take care of your health."
+
+  utter_symptoms_query:
+    - text: "Fetching verified medical information about symptoms..."
+
+  utter_causes_query:
+    - text: "Fetching medically reviewed data about disease causes..."
+
+  utter_treatment_query:
+    - text: "Let me find the latest treatment recommendations for you..."
+
+  utter_book_appointment:
+    - text: "You can book an appointment via our website or call our clinic. Would you like to schedule a telemedicine consultation?"
+
+  utter_general_health_advice:
+    - text: "Here are some health tips: Maintain a balanced diet, exercise regularly, stay hydrated, and get enough sleep."
+
+  utter_chatbot_capabilities:
+    - text: "I am a medical AI chatbot that provides health information based on verified medical sources. I can assist with symptoms, causes, treatments, and general health advice."
